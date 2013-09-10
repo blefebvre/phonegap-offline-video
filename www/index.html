@@ -27,16 +27,12 @@
     </head>
     <body>
         <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
+            <h1>Offline video Sample</h1>
+            <video controls>
+                <source src="video/swiss_powder_handcam.mp4" type="video/mp4">
+                Your device doesn't support this video. Bummer.
+            </video>
         </div>
         <script type="text/javascript" src="phonegap.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
     </body>
 </html>
